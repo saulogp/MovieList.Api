@@ -51,6 +51,7 @@ C:\src\MovieList\obj\Debug\net5.0\MovieList.MvcApplicationPartsAssemblyInfo.cach
 C:\src\MovieList\obj\Debug\net5.0\scopedcss\bundle\MovieList.styles.css
 C:\src\MovieList\obj\Debug\net5.0\staticwebassets\MovieList.StaticWebAssets.Manifest.cache
 C:\src\MovieList\obj\Debug\net5.0\MovieList.RazorTargetAssemblyInfo.cache
+C:\src\MovieList\obj\Debug\net5.0\MovieList.csproj.CopyComplete
 C:\src\MovieList\obj\Debug\net5.0\MovieList.dll
 C:\src\MovieList\obj\Debug\net5.0\ref\MovieList.dll
 C:\src\MovieList\obj\Debug\net5.0\MovieList.pdb
