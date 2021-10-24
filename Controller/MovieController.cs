@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using System;
 using MovieList.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MovieList.Controller
 {
@@ -21,6 +22,7 @@ namespace MovieList.Controller
 
         [HttpGet]
         [Route("movies")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetAsync(){
             var movies = await _context.Movies
                 .AsNoTracking()
@@ -30,6 +32,7 @@ namespace MovieList.Controller
 
         [HttpGet]
         [Route("movie/{id}")]
+        [Authorize]
         public async Task<IActionResult> GetByIdAsync([FromRoute] Guid id){
             var movie = await _context.Movies
                 .AsNoTracking()
@@ -39,6 +42,7 @@ namespace MovieList.Controller
 
         [HttpPost]
         [Route("movie")]
+        [Authorize(Roles ="employee, manager")]
         public async Task<IActionResult> PostAsync([FromBody] CreateMoviesModel model){
 
             if(!ModelState.IsValid)
@@ -64,6 +68,7 @@ namespace MovieList.Controller
 
         [HttpPut]
         [Route("movie/{id}")]
+        [Authorize(Roles ="employee, manager")]
         public async Task<IActionResult> PutAsync([FromBody] UpdateMoviesModel model, [FromRoute] Guid id){
 
             if(!ModelState.IsValid)
@@ -95,6 +100,7 @@ namespace MovieList.Controller
 
         [HttpDelete]
         [Route("movie/{id}")]
+        [Authorize(Roles ="manager")]
         public async Task<IActionResult> DeleteAsync([FromRoute] Guid id){
 
             var movie = await _context.Movies.FirstOrDefaultAsync(x => x.Id == id);

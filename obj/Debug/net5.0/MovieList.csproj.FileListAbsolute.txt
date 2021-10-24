@@ -8,6 +8,7 @@ C:\src\MovieList\bin\Debug\net5.0\MovieList.dll
 C:\src\MovieList\bin\Debug\net5.0\ref\MovieList.dll
 C:\src\MovieList\bin\Debug\net5.0\MovieList.pdb
 C:\src\MovieList\bin\Debug\net5.0\Humanizer.dll
+C:\src\MovieList\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\src\MovieList\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
 C:\src\MovieList\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\src\MovieList\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -17,11 +18,17 @@ C:\src\MovieList\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\src\MovieList\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\src\MovieList\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\src\MovieList\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\src\MovieList\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\src\MovieList\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\src\MovieList\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\src\MovieList\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\src\MovieList\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\src\MovieList\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
 C:\src\MovieList\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
 C:\src\MovieList\bin\Debug\net5.0\SQLitePCLRaw.core.dll
 C:\src\MovieList\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\src\MovieList\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\src\MovieList\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 C:\src\MovieList\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\src\MovieList\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
 C:\src\MovieList\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
